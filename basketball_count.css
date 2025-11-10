@@ -1,0 +1,45 @@
+body
+{
+    margin:0px;
+}
+.container
+{
+    background-color:#008585;
+    width:600px;
+    height:600px;
+    margin:0px auto;
+    text-align:center;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.dv1
+{
+    background-color:black;
+    width:200px;
+    height:200px;
+}
+#pr1
+{
+    color:red;
+    font-size:50px;
+    line-height:4;
+}
+#pr2
+{
+    color:red;
+    font-size:50px;
+    line-height:4;
+}
+.btn
+{
+   width:50px;
+   height:25px;
+   margin-top:10px;
+}
+.dv2
+{
+    display:flex;
+    flex-direction:column;
+
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="basketball_count.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basketball count</title>
+</head>
+<body>
+    <div class="container">
+        <div class="dv3">
+            <h1>Home</h1>
+            <div class="dv1">
+                <p id="pr1">0</p>
+            </div>
+            <button class="btn" onclick="Homeup1()">+1</button>
+            <button class="btn" onclick="Homeup2()">+2</button>
+            <button class="btn" onclick="Homeup3()">+3</button>
+        </div>
+        <div class="dv3">
+            <h1>Guest</h1>
+            <div  class="dv1">
+                <p id="pr2">0</p>
+            </div>
+            <button class="btn" onclick="Gup1()">+1</button>
+            <button class="btn" onclick="Gup2()">+2</button>
+            <button class="btn" onclick="Gup3()">+3</button>
+        </div>
+        <div class="dv2" onclick="Reset()">
+           <button class="btn">Reset</button>
+        </div>
+    </div>
+    <script src="basketball_js.js"></script>
+</body>
+</html>
